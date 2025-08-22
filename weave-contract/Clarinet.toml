@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/oracle-registry.clar'
 clarity_version = 3
 epoch = 3.0
+
+[contracts.stake-manager]
+path = 'contracts/stake-manager.clar'
+clarity_version = 3
+epoch = 3.0
 [repl.analysis]
 passes = ['check_checker']
 
